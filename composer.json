@@ -1,11 +1,11 @@
 {
-    "name": "leviathandataworks/faultline",
+    "name": "leviathandataworks/faultline-errors",
     "description": "Laravel package for Faultline error reporting",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Leviathandataworks\\Faultline\\": "src/"
+            "leviathandataworks\\Faultline\\": "src/"
         }
     },
     "authors": [
@@ -15,5 +15,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "illuminate/support": "^12.0@dev"
+    }
 }
