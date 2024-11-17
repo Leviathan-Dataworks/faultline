@@ -1,0 +1,19 @@
+{
+    "name": "leviathandataworks/faultline",
+    "description": "Laravel package for Faultline error reporting",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leviathandataworks\\Faultline\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matt Anderton",
+            "email": "matt@leviathandataworks.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
